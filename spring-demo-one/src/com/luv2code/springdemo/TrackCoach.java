@@ -22,5 +22,18 @@ public class TrackCoach implements Coach {
 		// TODO Auto-generated method stub
 		return fortuneService.getDailyFortune();
 	}
+	
+	//Bean Life Cycle - Adding init Method 
+	public void doMyStartUpStuff()
+	{
+		System.out.println("In the Init-Method");
+	}
+	
+	//Bean Life Cycle - Addingin Destroy Method.
+	
+	public void doMyCleanUpStuff()
+	{
+		System.out.println("In the Destroy Method");
+	}
 
 }
