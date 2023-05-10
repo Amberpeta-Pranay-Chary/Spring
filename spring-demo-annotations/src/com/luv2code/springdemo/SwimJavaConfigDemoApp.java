@@ -15,7 +15,7 @@ public class SwimJavaConfigDemoApp {
 //		Coach theCoach=context.getBean("swimCoach",Coach.class);
 		SwimCoach theCoach=context.getBean("swimCoach",SwimCoach.class);
 		//Calling the Method
-		System.out.println("His Name : "+theCoach.getName());
+		System.out.println("His Name : "+theCoach);
 		System.out.println("His Aim : "+theCoach.getAim());
 		System.out.println(theCoach.getDailyFortune());
 		

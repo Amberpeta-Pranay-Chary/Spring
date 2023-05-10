@@ -21,6 +21,14 @@ public class SwimCoach implements Coach {
 		return "Swim WorkOut";
 	}
 
+	public String getName() {
+		return name;
+	}
+	
+	public String getAim() {
+		return aim;
+	}
+	
 	@Override
 	public String getDailyFortune() {
 		// TODO Auto-generated method stub
